@@ -39,3 +39,15 @@
     background: #F2F2F2;
 
 }
+
+ul.list {
+    /*list-style: inside;*/
+    list-style-type: disc;
+    padding-left:30px;
+}
+.main-methods-info p a {
+    border-bottom: none;
+}
+.main-methods .action-btn {
+    position: initial;
+}
