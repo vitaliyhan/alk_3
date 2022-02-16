@@ -160,3 +160,46 @@ ul.list {
 .red {
     color: #ec472e !important;
 }
+
+
+.row_n {
+    clear: both;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.row_n_item {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.row_5_item {
+    width: 20%;
+}
+
+@media only screen and (max-width: 640px) {
+    .row_n_item {
+        width: 50%;
+    }
+    .row_5 {
+        width: 50%;
+    }
+}
+
+
+.row_n_item img {
+
+}
+
+.row_n_item .row_n_name {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.contacts.contacts-second {
+    clear: both;
+}
