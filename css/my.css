@@ -5,6 +5,7 @@
 .pt-20 {
     padding-top: 20px !important;
 }
+
 .pt-40 {
     padding-top: 40px !important;
 }
@@ -29,13 +30,16 @@
     text-align: left;
 }
 
+.ta-c {
+    text-align: center;
+}
+
+.center {
+    margin: 0 auto;
+}
+
 .red {
     color: #ec472e !important;
-}
-.btn_center {
-    display: block;
-    text-align: center;
-    margin: auto;
 }
 
 .bg-grey {
@@ -43,14 +47,116 @@
 
 }
 
+.bg-red {
+    background: #EC472E !important;
+
+}
+
+.btn_center {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+
 ul.list {
     /*list-style: inside;*/
     list-style-type: disc;
-    padding-left:30px;
+    padding-left: 30px;
 }
+
 .main-methods-info p a {
     border-bottom: none;
 }
+
 .main-methods .action-btn {
     position: initial;
+}
+
+/*! CSS Used from: http://localhost:63342/%D0%BD%D0%BE%D0%B2%D1%8B%D0%B5%20%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%8B/css/main.min.css */
+
+
+.steps .about {
+    padding: 100px 0;
+    position: relative;
+}
+
+.steps .about-steps p {
+    font-size: 18px;
+    line-height: 1.65;
+    font-weight: 300;
+    color: #333;
+    margin-left: 100px;
+}
+
+.steps .about-steps {
+    padding: 50px 0;
+    text-align: center;
+    text-align: left;
+}
+
+.steps .about-steps-top {
+    padding-bottom: 50px;
+}
+
+.steps .about-steps-top .section-title {
+    margin-bottom: 30px;
+}
+
+.steps .about-step {
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.steps .about-step:nth-child(even) {
+    background: #F2F2F2;
+}
+
+.steps .about-step-num {
+    float: left;
+    margin-right: 10px;
+    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    margin-top: -0.9em;
+    margin-left: 22px;
+    display: block;
+}
+
+@media only screen and (max-width: 1060px) {
+    .steps .about {
+        padding-top: 70px;
+    }
+
+    .steps .about-step p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .steps .about {
+        padding: 70px 0;
+    }
+
+    .steps .about-step {
+        padding-bottom: 20px;
+    }
+
+    .steps .about-step-num {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .steps .about {
+        padding: 70px 0 10px;
+    }
+}
+
+/*! CSS Used from: http://localhost:63342/%D0%BD%D0%BE%D0%B2%D1%8B%D0%B5%20%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D1%8B/css/my.css */
+.red {
+    color: #ec472e !important;
 }
